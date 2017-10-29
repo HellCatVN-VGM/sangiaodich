@@ -1,0 +1,146 @@
+/* --------------------------------------------------------------------- */
+/* ERROR PAGE
+/* --------------------------------------------------------------------- */
+.error-page {
+  width: 100%;
+  text-align: center;
+  padding: 136px 0;
+}
+.error-page .text-1 {
+  position: relative;
+  max-width: 865px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #02cdb3;
+  border-top: 3px solid #f4f4f4;
+  border-bottom: 3px solid #f4f4f4;
+  padding: 13.5px 0;
+  margin: auto;
+  z-index: 1;
+}
+.error-page .text-2 {
+  position: relative;
+  width: 100%;
+  margin: -54px 0 44px;
+}
+@media screen and (max-width: 767px) {
+  .error-page .text-2 {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .error-page .text-2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+}
+.error-page .text-2:before,
+.error-page .text-2:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.error-page .text-404 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 500px;
+  line-height: 1;
+  font-weight: 900;
+  color: #02cdb3;
+  text-shadow: -17px 0 0 #374456;
+}
+@media screen and (max-width: 991px) {
+  .error-page .text-404 {
+    font-size: 400px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .error-page .text-404 {
+    font-size: 240px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .error-page .text-404 {
+    font-size: 130px;
+    margin-bottom: 20px;
+  }
+}
+.error-page .text-message {
+  position: absolute;
+  bottom: 135px;
+  left: 50%;
+  top: auto;
+  right: auto;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 100%;
+  white-space: nowrap;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 900;
+  color: #374456;
+  background: #fff;
+  padding: 26.5px 0;
+  z-index: 1;
+}
+@media screen and (max-width: 767px) {
+  .error-page .text-message {
+    bottom: 68px;
+    font-size: 25px;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .error-page .text-message {
+    position: static;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    white-space: normal;
+    background: transparent;
+    line-height: 1.7;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.error-page .btn-back {
+  display: inline-block;
+  vertical-align: middle;
+  height: 60px;
+  position: relative;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #374456;
+  text-transform: uppercase;
+  border: 3px solid #02cdb3;
+  padding: 14px 57px;
+  z-index: 1;
+}
+@media screen and (min-width: 992px) {
+  .error-page .btn-back {
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+  }
+}
+@media screen and (max-width: 767px) {
+  .error-page .btn-back {
+    height: auto;
+  }
+}
+@media screen and (max-width: 479px) {
+  .error-page .btn-back {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.error-page .btn-back:hover {
+  color: #fff;
+  background: #02cdb3;
+  text-decoration: none;
+}
